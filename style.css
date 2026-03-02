@@ -1,22 +1,56 @@
 body {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     background-color: #f8e6ff;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-    margin-top: 150px;
+    width: 350px;
+    margin: 100px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
 }
 
-h1 {
+h1, h2 {
     color: purple;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 button {
+    width: 100%;
+    padding: 10px;
     background-color: purple;
     color: white;
-    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: darkviolet;
+}
+
+p {
+    margin-top: 15px;
 }
