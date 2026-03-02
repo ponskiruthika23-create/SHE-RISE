@@ -1,0 +1,22 @@
+body {
+    font-family: Arial;
+    background-color: #f8e6ff;
+    text-align: center;
+}
+
+.container {
+    margin-top: 150px;
+}
+
+h1 {
+    color: purple;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
